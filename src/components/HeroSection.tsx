@@ -45,13 +45,6 @@ const HeroSection = () => {
           </button>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in delay-500">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-xs uppercase tracking-widest text-muted-foreground">Scroll</span>
-            <div className="w-px h-12 bg-gradient-to-b from-muted-foreground to-transparent" />
-          </div>
-        </div>
       </div>
     </section>
   );
