@@ -30,12 +30,12 @@ const CreatorJoinSection = () => {
           </p>
 
           {/* CTA Button */}
-          <button className="btn-premium group">
+          <a href="https://shorturl.at/lcAur" target="_blank" rel="noopener noreferrer" className="btn-premium group inline-flex">
             <span className="relative z-10 flex items-center gap-3">
               Join as Creator
               <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
             </span>
-          </button>
+          </a>
 
           {/* Trust Indicators */}
           <div className="flex items-center justify-center gap-8 mt-12 pt-8 border-t border-border/50">
