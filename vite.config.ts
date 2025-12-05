@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   base: '/mediapulse-connect/',
   server: {
-    host: "::",
+    host: "https://mediapulse-official.github.io/mediapulse-connect/",
     port: 8080,
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
